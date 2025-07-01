@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=inter mocondo&display=swap');
 
-body { 
-    font-family: 'inter';
+:root { 
+    --primary-font: 'inter', sans-serif;
+    --secondary-font: 'mocondo', cursive;
+    --primary-color: #3a2620;
+    --secondary-color: #aa9581;
+    --highlight-color: #416a8e;
+    --light-highlight-color: #7a9fc2;
 }
 
-h1 { 
-    font-family: 'mocondo';
+.sub-heading-color { 
+    color: var(--highlight-color);
+}
+
+
+body { 
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 { 
+    font-family: var(--secondary-font);
+    color: var(--primary-color)
+}
+
+.container,
+.row { 
+    border: 2px solid black;
+}
+
+.col-12 { 
+    border: 2px solid white;
+    background-color: lightgrey;
 }
