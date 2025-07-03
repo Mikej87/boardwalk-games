@@ -13,6 +13,19 @@
     color: var(--highlight-color);
 }
 
+/* Navbar */
+
+#navbar { 
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+.navbar { 
+    background-color: var(--primary-color);
+}
 
 body { 
     font-family: var(--primary-font);
