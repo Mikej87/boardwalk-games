@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=inter mocondo&display=swap');
 
 :root { 
-    --primary-font: 'inter', sans-serif;
-    --secondary-font: 'mocondo', cursive;
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620;
     --secondary-color: #aa9581;
     --highlight-color: #416a8e;
@@ -11,6 +11,11 @@
 
 .sub-heading-color { 
     color: var(--highlight-color);
+}
+
+.section { 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
@@ -25,6 +30,12 @@
 
 .navbar { 
     background-color: var(--primary-color);
+} 
+
+/* Header */
+
+#header .lead { 
+    font-family: var(--secondary-font);
 }
 
 body { 
@@ -35,7 +46,28 @@ h1,
 h2,
 h3 { 
     font-family: var(--secondary-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
+}
+
+h1,
+h2 { 
+    text-transform: uppercase;
+}
+
+h2 { 
+    margin-bottom: 2rem;
+}
+
+/* Services */
+
+#services .card-footer { 
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card { 
+    margin-bottom: 1.5rem;
 }
 
 /*.container,
