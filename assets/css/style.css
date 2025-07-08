@@ -141,6 +141,12 @@ h2 {
 .join-text .join-h2 { 
     text-align: center;
 }
+
+.book-now { 
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
 /* grid visualisation CSS for testing */
 
 /* .container,
